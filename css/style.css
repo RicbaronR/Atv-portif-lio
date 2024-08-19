@@ -151,7 +151,7 @@ main section div button{
 	border: none;
 }
 main section.rt-post{
-	
+
 	background-color: #EDF7FA;
 	padding: 1vw 2vw 1vw 2vw;
 }
@@ -167,6 +167,7 @@ main section.rt-post ul li{
 	background-color: #FFFFFF;
 	margin: 0 2vw 0 0;
 	padding: 20px 20px 20px 20px;
+	border-radius: 5px;
 }
 main section.rt-post ul li h3{
 	font-weight: bold;
