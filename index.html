@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Featured works</title>
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <!--Forma de lincar com o css-->
+    <script src="https://kit.fontawesome.com/79a9d2b51f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
                 <li>
                     <a href="#">Blog</a>
                 </li>
-                <li class="works">
+                <li>
                     <a href="#">Works</a>
                 </li>
                 <li>
@@ -24,49 +25,51 @@
         </nav>
     </header>
     <main>
-        <h1>Featured works</h1>
-        <section>
-            <h2>Designing Dashboards with usability in mind</h2>
-            <p>
-                <span>2020</span> Dashboard, User Experience Design
-            </p>
-            <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <p>
-                <img src="./images/Rectangle4.png" alt="Dashboard page">
-            </p>
-        </section>
-        <section>
-            <h2>The Ultimate Guide to Car Maintenance</h2>
-            <p><span>2021</span> Dashboard, User Experience Design</p>
+        <section class="banner">
+            <div>
+            <h1>Hi, I am John,<br>
+                Creative Technologist</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <p>
-                <img src="./images/Rectangle5.png" alt="Image Car">
-            </p>
-
+            <button>Download Resume</button>
+            </div>
+            <div>
+                <img src="images/Ellipse1.png" alt="Imagem da Face">
+            </div>
         </section>
-    </main>
-    <footer>
-        <nav>
+        <section class="rt-post">
+                <h2>Recent posts</h2>
+                <ul>
+                    <li>
+                        <h3>Making a design system from scratch</h3>
+                <p>12 Feb 2020 | Design, Pattern</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </li>
+                    <li>
+                        <h3>Creating pixel perfect icons in Figma</h3>
+                <p>12 Feb 2020 | Figma, Icon Design</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </li>
+                </ul>
+        </section>
+        <section>
+            <h2>Featured works</h2>
             <ul>
                 <li>
-                    <a href="#"></a>
+                    <img src="images/Rectangle30.png" alt="">
+                    <h3>Designing Dashboards</h3>
+                    <p><span>2020</span>Dashboard</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 </li>
                 <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
+                    <img src="images/Rectangle32.png" alt="">
+                    <h3>Vibrant Portraits of 2020</h3>
+                    <p><span>2018</span>Illustration</p>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 </li>
             </ul>
-        </nav>
-            <p>Copyright &copy;2020 All rights reserved </p>
 
-    </footer>
-        
+        </section>
+
+    </main>
 </body>
 </html>

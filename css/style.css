@@ -58,11 +58,14 @@ a{
     color: black;
     text-decoration: none;/*tira a decoração dos links*/
 }
+main {
+	margin: 0 15vw 0 15vw;
+}
 /*======================================================================
                                 Topo
 =======================================================================*/
 header{
-	margin: 5vw 5vw 5vw 5vw;
+	margin: 2vw 2vw 5vw 5vw;
 }
 header nav ul{
     display: flex;/*muda a forma de origem de uma lista e coloca do lad*/
@@ -76,17 +79,15 @@ header nav ul li.works a{
 }
 
 /*======================================================================
-                                Conteúdo
+                                Conteúdo - Works
 =======================================================================*/
-main {
-	margin: 0 15vw 0 15vw;
-}
+
 main h1{
 	font-size: 1.5rem;
 }
 main section h2{
 	font-size: 1.2rem;
-	margin: 5vw 0 0 0;
+	margin: 3vw 0 0 0;
 	font-weight: bold;
 }
 main section:last-child{
@@ -114,3 +115,64 @@ footer{
 	text-align: center;
 	margin: 2vw 0 2vw 0;
 }
+footer nav ul{
+	display: flex;
+	justify-content: center;
+	
+	/*Utilizamos o Font Awesome*/
+}
+footer nav ul li {
+	margin: 0 10px 10px 10px ;
+	font-size: 1.3rem;
+}
+
+/*======================================================================
+                                Conteúdo - Home Page
+=======================================================================*/
+main section.banner{
+	display: flex;
+	margin: 10vw 0 1vw 0;
+}
+main section div h1{
+	font-weight: bold;
+	font-size: 2rem;
+}
+section.banner p{
+	margin: 5vw 4vw 1.5vw 0;
+}
+main section div button{
+	margin: 20px 0 0 0; 
+	background-color: #FF6464;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 0px;
+	padding: 10px 15px 10px 15px;
+	font-size: 1rem;
+	border: none;
+}
+main section.rt-post{
+	
+	background-color: #EDF7FA;
+	padding: 1vw 2vw 1vw 2vw;
+}
+main section.rt-post h2{
+	font-size: 1.8rem;
+	margin: 0 0 10px;
+	font-weight: 100;
+}
+main section.rt-post ul{
+	display: flex;
+}
+main section.rt-post ul li{
+	background-color: #FFFFFF;
+	margin: 0 2vw 0 0;
+	padding: 20px 20px 20px 20px;
+}
+main section.rt-post ul li h3{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+
+
+
