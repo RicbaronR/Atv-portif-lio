@@ -132,6 +132,7 @@ footer nav ul li {
 main section.banner{
 	display: flex;
 	margin: 10vw 0 1vw 0;
+	border: 0;
 }
 main section div h1{
 	font-weight: bold;
@@ -149,11 +150,14 @@ main section div button{
 	padding: 10px 15px 10px 15px;
 	font-size: 1rem;
 	border: none;
+
 }
 main section.rt-post{
-
+	height: 100%;
+	width: 100%;
 	background-color: #EDF7FA;
 	padding: 1vw 2vw 1vw 2vw;
+	border: 0;
 }
 main section.rt-post h2{
 	font-size: 1.8rem;
@@ -166,14 +170,61 @@ main section.rt-post ul{
 main section.rt-post ul li{
 	background-color: #FFFFFF;
 	margin: 0 2vw 0 0;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 40px 20px;
 	border-radius: 5px;
 }
 main section.rt-post ul li h3{
 	font-weight: bold;
 	font-size: 1.2rem;
 }
+main section.fw ul{
+	display: flex;
+	padding: 0 0 0 25px;
+}
+main section.fw ul li{
+	padding: 50px 50px 30px 0px;
+}
+main section.fw h2{
+	font-size: 1.8rem;
+	margin: 40px 0 0 25px;
+	font-weight: 100;
+}
+main section.fw h3{
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 20px 0 0 0;
+}
+main section.fw ul li span{
+	background-color: #142850;
+	margin: 0 30px 0 0;
+}
+main section.fw ul li p.p1{
+	color: gray;
+	
+}
 
 
-
-
+/*======================================================================
+                                Footer - Home Page
+=======================================================================*/
+footer{
+	text-align: center;
+	margin: 2vw 0 2vw 0;
+}
+footer nav ul{
+	display: flex;
+	justify-content: center;
+	
+	/*Utilizamos o Font Awesome*/
+}
+footer nav ul li {
+	margin: 0 10px 30px 10px ;
+	font-size: 1.8rem;
+}
+footer nav ul li span{
+	color: #142850;
+}
+footer p{
+	font-size: 0.5rem;
+	color: #142850;
+}
